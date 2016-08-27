@@ -14,7 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+print(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -124,3 +124,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # If you're using a Chromebook, add this line at the bottom of your settings.py file
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+print(STATIC_ROOT)
